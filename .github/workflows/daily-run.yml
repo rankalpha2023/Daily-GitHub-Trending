@@ -1,24 +1,29 @@
 name: Fetch GitHub Daily Trending
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '* 16 * * *'
+    - cron: '0 16 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Setup node.js environment
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: '13'
+          node-version: '20'
 
       - name: Install dependencies and run script
         run: |
           # Run script
           npm ci
+          npm test
           npm run crawl --if-present
 
       - name: Commit files
