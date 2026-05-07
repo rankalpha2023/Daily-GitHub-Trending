@@ -21,24 +21,55 @@ const instance = axios.create({
   }
 });
 
-const getData = async () => {
-  const { data } = await instance.get('/trending');
-  const $ = cheerio.load(data);
+const normalizeText = text => text.replace(/\s+/g, ' ').trim();
+
+const parseNumberText = text => {
+  const match = text.match(/[\d,]+/);
+  return match ? match[0].replace(/,/g, '') : '0';
+};
+
+const getRepositoryLink = ($, elm) => {
+  const headingLink = $(elm).find('h2 a[href], h1 a[href]').first();
+  if (headingLink.length) return headingLink;
+
+  return $(elm)
+    .find('a[href]')
+    .filter((i, link) => /^\/[^/\s]+\/[^/\s]+$/.test($(link).attr('href') || ''))
+    .first();
+};
+
+const parseTrendingHtml = html => {
+  const $ = cheerio.load(html);
   const arr = [];
 
-  // Retrieve the repositories from responsed data.
-  $('.Box-row').each((i, elm) => {
+  // Retrieve the repositories from response data.
+  $('article.Box-row, .Box-row').each((i, elm) => {
+    const repositoryLink = getRepositoryLink($, elm);
+    const repositoryPath = repositoryLink.attr('href');
+
+    if (!repositoryPath) return;
+
+    const title = normalizeText(repositoryLink.text()).replace(/\s*\/\s*/g, '/');
+    const rowText = normalizeText($(elm).text());
+    const todayStarsMatch = rowText.match(/[\d,]+\s+stars?\s+today/i);
+
     const item = {
-      title: $(elm).find('h1').text().replace(/\s/g, ''),
-      url: `https://github.com${$(elm).find('h1 a').attr('href')}`,
-      description: $(elm).find('p').text().replace(/\n/g, '').trim(),
-      language: $(elm).find('[itemprop="programmingLanguage"]').text() || 'none',
-      star: $(elm).find('span').last().text().match(/\d+/g)[0]
+      title,
+      url: new URL(repositoryPath, url).href,
+      description: normalizeText($(elm).find('p').first().text()),
+      language: normalizeText($(elm).find('[itemprop="programmingLanguage"]').first().text()) || 'none',
+      star: todayStarsMatch ? parseNumberText(todayStarsMatch[0]) : '0'
     };
+
     arr.push(item);
   });
 
   return arr;
+};
+
+const getData = async () => {
+  const { data } = await instance.get('/trending');
+  return parseTrendingHtml(data);
 };
 
 const saveFile = async data => {
@@ -78,7 +109,18 @@ const saveFile = async data => {
   );
 };
 
-(async () => {
+const run = async () => {
   let data = await getData();
   await saveFile(data);
-})();
+};
+
+if (require.main === module) {
+  run();
+}
+
+module.exports = {
+  getData,
+  parseTrendingHtml,
+  parseNumberText,
+  saveFile
+};
