@@ -1,0 +1,93 @@
+[
+  {
+    "title": "bytedance/UI-TARS-desktop",
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "language": "TypeScript",
+    "star": "656"
+  },
+  {
+    "title": "anthropics/financial-services",
+    "url": "https://github.com/anthropics/financial-services",
+    "description": "",
+    "language": "Python",
+    "star": "1479"
+  },
+  {
+    "title": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "Shell",
+    "star": "1092"
+  },
+  {
+    "title": "CloakHQ/CloakBrowser",
+    "url": "https://github.com/CloakHQ/CloakBrowser",
+    "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+    "language": "Python",
+    "star": "567"
+  },
+  {
+    "title": "HKUDS/AI-Trader",
+    "url": "https://github.com/HKUDS/AI-Trader",
+    "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+    "language": "Python",
+    "star": "255"
+  },
+  {
+    "title": "jundot/omlx",
+    "url": "https://github.com/jundot/omlx",
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+    "language": "Python",
+    "star": "187"
+  },
+  {
+    "title": "datawhalechina/easy-vibe",
+    "url": "https://github.com/datawhalechina/easy-vibe",
+    "description": "💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step.",
+    "language": "JavaScript",
+    "star": "642"
+  },
+  {
+    "title": "playcanvas/supersplat",
+    "url": "https://github.com/playcanvas/supersplat",
+    "description": "3D Gaussian Splat Editor",
+    "language": "TypeScript",
+    "star": "604"
+  },
+  {
+    "title": "masterking32/MasterDnsVPN",
+    "url": "https://github.com/masterking32/MasterDnsVPN",
+    "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+    "language": "Go",
+    "star": "694"
+  },
+  {
+    "title": "lsdefine/GenericAgent",
+    "url": "https://github.com/lsdefine/GenericAgent",
+    "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+    "language": "Python",
+    "star": "170"
+  },
+  {
+    "title": "decolua/9router",
+    "url": "https://github.com/decolua/9router",
+    "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+    "language": "JavaScript",
+    "star": "806"
+  },
+  {
+    "title": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "language": "JavaScript",
+    "star": "1011"
+  },
+  {
+    "title": "datawhalechina/hello-agents",
+    "url": "https://github.com/datawhalechina/hello-agents",
+    "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+    "language": "Python",
+    "star": "756"
+  }
+]
