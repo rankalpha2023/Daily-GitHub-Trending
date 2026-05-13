@@ -1,0 +1,135 @@
+[
+  {
+    "title": "tinyhumansai/openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+    "language": "Rust",
+    "star": "1595"
+  },
+  {
+    "title": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "language": "TypeScript",
+    "star": "1335"
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "star": "1506"
+  },
+  {
+    "title": "yikart/AiToEarn",
+    "url": "https://github.com/yikart/AiToEarn",
+    "description": "Let's use AI to Earn!",
+    "language": "TypeScript",
+    "star": "987"
+  },
+  {
+    "title": "influxdata/telegraf",
+    "url": "https://github.com/influxdata/telegraf",
+    "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+    "language": "Go",
+    "star": "6"
+  },
+  {
+    "title": "millionco/react-doctor",
+    "url": "https://github.com/millionco/react-doctor",
+    "description": "Your agent writes bad React. This catches it",
+    "language": "TypeScript",
+    "star": "620"
+  },
+  {
+    "title": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+    "language": "Python",
+    "star": "83"
+  },
+  {
+    "title": "danielmiessler/Personal_AI_Infrastructure",
+    "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+    "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+    "language": "TypeScript",
+    "star": "439"
+  },
+  {
+    "title": "supertone-inc/supertonic",
+    "url": "https://github.com/supertone-inc/supertonic",
+    "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+    "language": "Swift",
+    "star": "1048"
+  },
+  {
+    "title": "CloakHQ/CloakBrowser",
+    "url": "https://github.com/CloakHQ/CloakBrowser",
+    "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+    "language": "Python",
+    "star": "1829"
+  },
+  {
+    "title": "Greedeks/GTweak",
+    "url": "https://github.com/Greedeks/GTweak",
+    "description": "Portable Tool for an Ideal Windows Setup",
+    "language": "C#",
+    "star": "127"
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "star": "3372"
+  },
+  {
+    "title": "ArthurBrussee/brush",
+    "url": "https://github.com/ArthurBrussee/brush",
+    "description": "3D Reconstruction for all",
+    "language": "Rust",
+    "star": "78"
+  },
+  {
+    "title": "imthenachoman/How-To-Secure-A-Linux-Server",
+    "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+    "description": "An evolving how-to guide for securing a Linux server.",
+    "language": "none",
+    "star": "233"
+  },
+  {
+    "title": "apernet/hysteria",
+    "url": "https://github.com/apernet/hysteria",
+    "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+    "language": "Go",
+    "star": "489"
+  },
+  {
+    "title": "rasbt/LLMs-from-scratch",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+    "language": "Jupyter Notebook",
+    "star": "824"
+  },
+  {
+    "title": "ton-blockchain/acton",
+    "url": "https://github.com/ton-blockchain/acton",
+    "description": "Toolchain for TON smart contract development and beyond",
+    "language": "Rust",
+    "star": "15"
+  },
+  {
+    "title": "trycua/cua",
+    "url": "https://github.com/trycua/cua",
+    "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+    "language": "HTML",
+    "star": "307"
+  },
+  {
+    "title": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "language": "Python",
+    "star": "1159"
+  }
+]
